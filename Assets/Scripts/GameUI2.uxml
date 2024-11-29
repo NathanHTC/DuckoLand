@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="DialogNPC" src="project://database/Assets/Scripts/DialogNPC.uxml?fileID=9197481963319205126&amp;guid=025216145cace4eb9b09c876415d9a3b&amp;type=3#DialogNPC" />
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/UIHealthFrame.png?fileID=21300000&amp;guid=b47cdbd2062c5e64ba5a0bf3f6b045b1&amp;type=3#UIHealthFrame&quot;); width: 524px; height: 155px; translate: -12px 45px; -unity-background-scale-mode: scale-to-fit;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; width: 183px; height: 58px; position: absolute; top: 36px; translate: 234px 9px;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/UIHealthBar.png?fileID=21300000&amp;guid=39fe000f2b6d9d04b93d6a76310e29aa&amp;type=3#UIHealthBar&quot;); width: 186px; height: 58px; translate: 0 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/CharacterPortrait.png?fileID=21300000&amp;guid=0332b35b8fe3cf8458eb0558889493d1&amp;type=3#CharacterPortrait&quot;); height: 139px; width: 340px; translate: 156px -1px; -unity-background-scale-mode: scale-to-fit; position: absolute; top: 1px; left: -164px;" />
+        <ui:Button text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Menu" style="height: 80px; width: 262px; background-image: url(&quot;project://database/Assets/TechnoGami/2d%20UI%20button/AllSection/Section05/BlankButton.png?fileID=21300000&amp;guid=4d350e589a7cb554ca7301a404d9b847&amp;type=3#BlankButton&quot;); position: absolute; left: 90%; top: 20%; right: 20%;" />
+    </ui:VisualElement>
+    <ui:Instance template="DialogNPC" name="DialogNPC" style="height: 984px; position: absolute; top: 538px; width: 1859px; left: 451px; align-self: center; right: -389px; bottom: -442px;">
+        <AttributeOverrides element-name="Label" text="Dear advanturer, robots in &#10;this town are out of control, &#10;can you help us to stop &#10;them? However, please &#10;avoid the yellow ones&#10;&#10;" />
+    </ui:Instance>
+</ui:UXML>
