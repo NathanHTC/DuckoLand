@@ -1,11 +1,10 @@
-Assets/
+
 /Library/
 /Temp/
 /Obj/
 /Build/
 /Logs/
 /UserSettings/
-*.csproj
 *.unityproj
 *.sln
 *.user
